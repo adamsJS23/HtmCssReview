@@ -1,7 +1,21 @@
-h1,
-h3,
-h4 {
+h1 {
   text-transform: uppercase;
   font-style: italic;
-  color: blue;
+  color: rgb(43, 14, 14);
+  font-size: 60px;
+}
+
+h2 {
+  color: brown;
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+img {
+  height: 30%;
+  width: 30%;
 }
