@@ -68,3 +68,33 @@ footer p {
 .main-header {
   background-color: #f7f7f7;
 }
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+ /* li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd) {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: red;
+} */
+
+ul li:nth-child(even) {
+  color: green;
+}
+
+article p:first-child {
+  color: #1098ad;
+} */
