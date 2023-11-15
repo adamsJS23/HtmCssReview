@@ -22,6 +22,10 @@ h2 {
 h1,
 h2 {
   text-transform: uppercase;
+  color: #1098ad;
+}
+
+h1 {
 }
 
 img {
@@ -53,6 +57,14 @@ footer p {
     "Lucida Sans Unicode";
 }
 
-.class {
+.title {
   font-family: "Times New Roman", Times, serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
 }
