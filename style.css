@@ -1,3 +1,12 @@
+h1,
+h2,
+h4,
+p,
+li,
+p {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
 h1 {
   text-transform: uppercase;
   font-style: italic;
@@ -33,4 +42,17 @@ h4 {
 li {
   /* line-height: 2; */
   font-size: 17px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+#author {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+}
+
+.class {
+  font-family: "Times New Roman", Times, serif;
 }
