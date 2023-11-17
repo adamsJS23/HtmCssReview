@@ -19,3 +19,13 @@
   background-color: white;
   color: black;
 }
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
