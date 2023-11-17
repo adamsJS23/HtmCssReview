@@ -5,6 +5,8 @@
 .product-title {
   background-color: #f7f7f7;
   text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
 
 .add-cart {
@@ -29,6 +31,11 @@
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .details-list {
