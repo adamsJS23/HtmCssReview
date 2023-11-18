@@ -1,10 +1,13 @@
-/* * {
-  border-top: 10px solid #1098ad;
-} */
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   color: #444;
   border-top: 10px solid #1098ad;
+  margin: 0;
 }
 
 h1,
@@ -53,8 +56,11 @@ h4 {
 }
 
 li {
-  /* line-height: 2; */
   font-size: 17px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 footer p {
@@ -76,12 +82,24 @@ footer p {
 
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px;
+  /* padding-left: 80px;
+  padding-right: 40px; */
+  /* padding: 20px 40px; */
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
 }
 
 /* li:first-child {
