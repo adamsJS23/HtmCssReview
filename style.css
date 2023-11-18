@@ -151,3 +151,13 @@ a:active {
 .author-name {
   font-weight: bold;
 }
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
