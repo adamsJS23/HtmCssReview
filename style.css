@@ -27,6 +27,23 @@ h1 {
   margin-bottom: 30px;
 }
 
+nav a:link {
+  /* background-color: cornflowerblue;
+  margin: 20px;
+  padding: 20px;
+  display: block;
+  height: 100px;
+  width: 200px; */
+
+  margin-right: 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 h2 {
   color: brown;
   font-size: 30px;
