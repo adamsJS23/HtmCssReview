@@ -190,3 +190,16 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+h1::first-letter {
+  font-style: normal;
+  margin-left: 5px;
+}
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+h2 + p::first-line {
+  color: red;
+}
