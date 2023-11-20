@@ -56,6 +56,7 @@ h2 {
 }
 
 h1 {
+  position: relative;
 }
 
 img {
@@ -202,4 +203,16 @@ h2::first-letter {
 
 h2 + p::first-line {
   color: red;
+}
+
+h1::after {
+  content: "TOP";
+  background-color: yellow;
+  font-size: 22px;
+  font-style: normal;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 8px;
 }
