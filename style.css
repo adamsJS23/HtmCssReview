@@ -56,7 +56,6 @@ h2 {
 }
 
 h1 {
-  position: relative;
 }
 
 img {
@@ -205,14 +204,20 @@ h2 + p::first-line {
   color: red;
 }
 
-h1::after {
+.heading-secondary {
+  position: relative;
+}
+
+.heading-secondary::after {
   content: "TOP";
-  background-color: yellow;
-  font-size: 22px;
-  font-style: normal;
+  display: inline-block;
+  background-color: #ffe70e;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
-  padding: 4px 8px;
+  padding: 5px 10px;
 }
