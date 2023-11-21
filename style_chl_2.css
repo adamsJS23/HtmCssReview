@@ -42,6 +42,8 @@ body {
 
 .more-info:link,
 .more-info:visited {
+  display: inline-block;
+  margin-bottom: 30px;
   color: black;
 }
 
@@ -88,33 +90,33 @@ body {
   color: black;
 }
 
-.colors {
-  margin-top: 30px;
-}
-
 .color {
   display: inline-block;
   width: 15px;
   height: 15px;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 .color-corn {
   background-color: cornflowerblue;
-  margin-left: 10px;
 }
+
 .color-black {
   background-color: black;
 }
+
 .color-crimson {
   background-color: crimson;
 }
+
 .color-green {
   background-color: green;
 }
+
 .color-red {
   background-color: red;
 }
+
 .color-yellow {
   background-color: yellow;
 }
@@ -129,5 +131,4 @@ body {
   left: -25px;
   padding: 3px 6px;
   letter-spacing: 1px;
-  /* text-align: center; */
 }
