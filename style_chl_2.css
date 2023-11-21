@@ -1,3 +1,5 @@
+/* GENERAL RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -52,6 +54,39 @@ body {
   text-decoration: none;
 }
 
+/* STYLE COLORS */
+
+.color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 12px;
+}
+
+.color-corn {
+  background-color: cornflowerblue;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-crimson {
+  background-color: crimson;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
 /* PRODUCT DETAILS */
 
 .details-title {
@@ -90,36 +125,7 @@ body {
   color: black;
 }
 
-.color {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: 12px;
-}
-
-.color-corn {
-  background-color: cornflowerblue;
-}
-
-.color-black {
-  background-color: black;
-}
-
-.color-crimson {
-  background-color: crimson;
-}
-
-.color-green {
-  background-color: green;
-}
-
-.color-red {
-  background-color: red;
-}
-
-.color-yellow {
-  background-color: yellow;
-}
+/* SALE */
 
 .sale {
   background-color: red;
