@@ -92,29 +92,30 @@ body {
   margin-top: 30px;
 }
 
-.color-link {
+.color {
   display: inline-block;
   width: 15px;
   height: 15px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
-.colors .color-link:nth-child(1) {
+.color-corn {
   background-color: cornflowerblue;
+  margin-left: 10px;
 }
-.colors .color-link:nth-child(2) {
+.color-black {
   background-color: black;
 }
-.colors .color-link:nth-child(3) {
+.color-crimson {
   background-color: crimson;
 }
-.colors .color-link:nth-child(4) {
+.color-green {
   background-color: green;
 }
-.colors .color-link:nth-child(5) {
+.color-red {
   background-color: red;
 }
-.colors .color-link:nth-child(6) {
+.color-yellow {
   background-color: yellow;
 }
 
@@ -128,4 +129,5 @@ body {
   left: -25px;
   padding: 3px 6px;
   letter-spacing: 1px;
+  /* text-align: center; */
 }
