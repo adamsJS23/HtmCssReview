@@ -225,3 +225,17 @@ h2 + p::first-line {
   right: 0;
   padding: 5px 10px;
 }
+
+/* FLOATS */
+
+.author-photo {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  /* padding-top: 10px; */
+}
