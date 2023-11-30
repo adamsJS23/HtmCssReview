@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -75,6 +76,7 @@ p {
 h4 {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 li {
@@ -121,10 +123,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* li:first-child {
@@ -182,7 +181,8 @@ a:active {
 
 ul,
 ol {
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  margin-left: 0;
 }
 
 button {
