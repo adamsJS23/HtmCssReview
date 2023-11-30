@@ -25,6 +25,7 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 15px 0;
+  margin-bottom: 30px;
 }
 
 /* PRODUCT INFORMATION */
@@ -137,4 +138,41 @@ body {
   left: -25px;
   padding: 3px 6px;
   letter-spacing: 1px;
+}
+
+/* LAYOUT USING FLOAT */
+
+.product-title {
+  margin-bottom: 30px;
+}
+
+img {
+  float: left;
+}
+
+.price-box {
+  width: 240px;
+  float: left;
+  margin-left: 40px;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.details-box {
+  width: 240px;
+  float: right;
+}
+
+.details-title {
+  margin-top: 0;
 }
