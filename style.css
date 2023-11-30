@@ -210,6 +210,7 @@ h2 + p::first-line {
 
 .heading-secondary {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .heading-secondary::after {
@@ -259,17 +260,15 @@ nav {
 }
 
 article {
-  background-color: forestgreen;
-  width: 900px;
+  width: 825px;
   float: left;
 }
 
 aside {
-  background-color: orangered;
   width: 300px;
   float: right;
 }
 
 footer {
-  background-color: cornflowerblue;
+  clear: both;
 }
