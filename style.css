@@ -179,10 +179,12 @@ a:active {
   position: relative;
 }
 
-ul,
-ol {
-  /* margin-left: 20px; */
+ul {
   margin-left: 0;
+}
+
+ol {
+  margin-left: 20px;
 }
 
 button {

@@ -142,18 +142,27 @@ body {
 
 /* LAYOUT USING FLOAT */
 
+/* .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  background-color: orangered;
+} */
 .product-title {
   margin-bottom: 30px;
 }
 
-img {
+.product-img {
   float: left;
 }
 
-.price-box {
+.product-info {
   width: 240px;
-  float: left;
   margin-left: 40px;
+  float: left;
 }
 
 .price {
@@ -161,14 +170,14 @@ img {
 }
 
 .shipping {
-  float: right;
+  float: left;
 }
 
-.clearfix {
+.product-description {
   clear: both;
 }
 
-.details-box {
+.product-details {
   width: 240px;
   float: right;
 }
